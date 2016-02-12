@@ -1,0 +1,33 @@
+---
+layout: page
+title: 'Posts Grouping'
+header: Posts By Category or Tags or Time
+group: navigation
+---
+{% include JB/setup %}
+
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#categories" aria-controls="categories" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-open"></i>&nbsp;Post Categories</a></li>
+    <li role="presentation"><a href="#tags" aria-controls="tags" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-tags"></i>&nbsp;Post Tags</a></li>
+    <li role="presentation"><a href="#archive" aria-controls="archive" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-time"></i>&nbsp;Post Archive</a></li>
+    <li role="presentation"><a href="#allpages" aria-controls="allpages" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-inbox"></i>&nbsp;All Pages</a></li>
+</ul>
+<br/>
+<!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="categories">
+        {% include custom/categories_list %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="tags">
+        {% include custom/tags_list %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="archive">
+        {% include custom/archive_list %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="allpages">
+        <ul>
+        {% assign pages_list = site.pages %} 
+        {% include JB/pages_list %}
+        </ul>
+    </div>
+</div>

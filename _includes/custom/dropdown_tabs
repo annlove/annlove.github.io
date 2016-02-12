@@ -1,0 +1,33 @@
+{% comment %}<!--
+The tab_list include is a listing helper for categories.
+Usage:
+  1) assign the 'tab_list' variable to a valid array of tags.
+  2) include JB/tab_list
+  example:
+    <ul>
+  	  {% assign tab_list = site.categories %} 
+      {% assign tab_name = "Categories" %}  
+  	  {% include custom/dropdown_tabs %}
+  	</ul>
+  
+  Notes: 
+    Categories can be either a Hash of item objects (hashes) or an Array of item-names (strings).
+    The encapsulating 'if' statement checks whether tab_list is a Hash or Array.
+    site.categories is a Hash while page.categories is an array.
+    
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+
+{% for item in tab_list %} 
+<div class="panel panel-default" id="{{ item[0] }}-ref">
+  <div class="panel-heading bg-tr-img">  
+{{ item[0] | capitalize | join: "/" }} <span class="badge">{{ item[1].size }}</span></div>
+  <div class="panel-body">
+    <ul>
+      {% assign pages_list = item[1] %}  
+      {% include JB/pages_list %}
+    </ul>
+  </div>
+</div>
+{% endfor %}
+{% assign tab_list = nil %}

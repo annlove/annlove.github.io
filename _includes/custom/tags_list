@@ -1,0 +1,3 @@
+{% assign tab_list = site.tags %} 
+{% assign tab_name = "Tags" %} 
+{% include custom/dropdown_tabs %}
