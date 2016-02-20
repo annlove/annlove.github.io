@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: post
+title: Jekyll Hello World!
+category : frontend
+tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
@@ -16,7 +17,6 @@ In `_config.yml` remember to specify your own data:
     title : My Blog =)
     
     author :
-      name : Name Lastname
       email : blah@email.test
       github : username
       twitter : username
