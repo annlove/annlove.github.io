@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'Posts Grouping'
-header: Posts By Category or Tags or Time
+title: 'All Archive'
+header: Posts and Pages By Category or Tags or Time
 group: navigation
 ---
 {% include JB/setup %}
@@ -9,8 +9,8 @@ group: navigation
 <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#categories" aria-controls="categories" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-open"></i>&nbsp;Post Categories</a></li>
     <li role="presentation"><a href="#tags" aria-controls="tags" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-tags"></i>&nbsp;Post Tags</a></li>
-    <li role="presentation"><a href="#archive" aria-controls="archive" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-time"></i>&nbsp;Post Archive</a></li>
-    <li role="presentation"><a href="#allpages" aria-controls="allpages" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-inbox"></i>&nbsp;All Pages</a></li>
+    <li role="presentation"><a href="#allposts" aria-controls="allposts" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-time"></i>&nbsp;Post Archive</a></li>
+    <li role="presentation"><a href="#allpages" aria-controls="allpages" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-inbox"></i>&nbsp;Pages Archive</a></li>
 </ul>
 <br/>
 <!-- Tab panes -->
@@ -21,7 +21,7 @@ group: navigation
     <div role="tabpanel" class="tab-pane" id="tags">
         {% include custom/tags_list %}
     </div>
-    <div role="tabpanel" class="tab-pane" id="archive">
+    <div role="tabpanel" class="tab-pane" id="allposts">
         {% include custom/archive_list %}
     </div>
     <div role="tabpanel" class="tab-pane" id="allpages">
