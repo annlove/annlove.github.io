@@ -7,15 +7,15 @@ group: TipsForMac
 ---
 {% include JB/setup %}
 
-##問題
+## 問題
 
-##環境
+## 環境
 系統：OS X EI Capitan  
 輸出方式：HDMI  
 螢幕型號：ViewSonic VX2270
 
 
-##解法
+## 解法
 [Force RGB mode in Mac OS X to fix the picture quality of an external monitor](http://www.ireckon.net/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/comment-page-11#comment-14866)
 
 1. Run [Fix Script](https://gist.github.com/adaugherity/7435890).
