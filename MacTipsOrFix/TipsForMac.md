@@ -1,6 +1,6 @@
 ---
 layout: group
-title: Tips For Mac
+title: 啃蘋果
 description: TipsForMac
 group: navigation
 ---
