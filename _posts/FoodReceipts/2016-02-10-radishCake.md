@@ -1,20 +1,28 @@
 ---
 layout: post
-title: "蘿蔔糕 / Chinese Radish Cake"
-description: ""
+title: "蘿蔔糕"
+description: "蘿蔔糕食譜 / Chinese Radish Cake Recipe"
 category : [食譜,料理]
 tags: [米食,白蘿蔔]
+tagline: "Chinese Radish Cake"
+thumbnail: "./assets/posts/receipts/radishCake.jpg"
 ---
 
 ### 材料：  
-- 白蘿蔔 Chinese radis
-- 在來米 Long grain rice  
+- 白蘿蔔  
+  Chinese radis
+- 在來米  
+  long grain rice  
   (或是改用在來米粉 rice powder)
-- 水 water
+- 水  
+  water
 
-- 絞肉
-- 香菇、蝦米 dried mushroom, dried shrimp
-- 油蔥、白胡椒粉 crisp-fried garlic, white pepper
+- 絞肉  
+  minced steak
+- 香菇、蝦米   
+  dried mushroom, dried shrimp
+- 油蔥、白胡椒粉    
+  crisp-fried garlic, white pepper
 
 比例： 
 白蘿蔔：在來米：水 ＝ 4:1:1 （重量）

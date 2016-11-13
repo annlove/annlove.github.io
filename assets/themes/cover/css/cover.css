@@ -56,8 +56,9 @@ body {
 
 body {
     color: #fff;
-    /* background: url(http://paulmason.name/media/demos/full-screen-background-image/background.jpg) no-repeat center center fixed; */
-    background: url(../img/barn-owl-crop.png) no-repeat center center fixed;
+    background: url(../img/barn-owl-crop.png) no-repeat center center fixed; 
+    /* background: url(../img/herbs.jpg) no-repeat top left  fixed; */
+    /* background: url(../img/garlic.jpg) no-repeat top left  fixed; */
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -217,7 +218,8 @@ pre {
  */
 
 .cover {
-    padding: 20px;
+    padding: 15px;
+    margin: 5px;
 }
 
 .cover .btn-lg {
@@ -332,3 +334,8 @@ pre {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.thumbnail > img {
+  height: 170px; 
+
+}

@@ -1,0 +1,40 @@
+<div class="cover-container">
+    <div class="inner cover">
+        <h1 class="cover-heading">{{ page.title }}</h1>
+        <p class="lead">{{ content }}</p>
+    </div>
+    {% include JB/analytics %}
+</div>
+{% if page.description %} 
+{% assign posts_list = site.posts %} 
+{% assign group = page.description %}
+<div class="inner row text-center">
+    {% for node in posts_list %} 
+    {% if node.title != null %} 
+    {% assign categories_list = node.categories %}
+    {% for category in categories_list %} 
+    {% if category == group %}
+    <div class="col-sm-6 col-md-3">
+        <div class="cover">          
+            {% if node.thumbnail %} 
+            <a href="{{ BASE_PATH }}{{node.url}}" class="thumbnail">
+              <img src="{{node.thumbnail}}" alt="{{node.title}}">
+            </a>
+            {% else %}
+            <a href="{{ BASE_PATH }}{{node.url}}">
+              <img src="./assets/posts/receipts/no.png" alt="no image provided">
+            </a>
+            {% endif %}
+
+            <h3>{{node.title}}</h3>
+            {% if node.tagline %} 
+            <h5>{{ node.tagline }}</h5>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %} 
+    {% endfor %}
+</div>
+{% endif %}
