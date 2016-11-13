@@ -6,4 +6,4 @@ group: navigation
 ---
 {% include JB/setup %}
 
-食譜
+食驗筆記、紀錄
