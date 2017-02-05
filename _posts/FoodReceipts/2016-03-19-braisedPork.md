@@ -13,7 +13,8 @@ thumbnail: "./assets/posts/receipts/braisedPork2.jpg"
 - 豬五花，手切條狀 300g  
 - 油適量  
 
-#### 醬汁
+醬汁
+
 - 沖繩黑糖 10g以下兩塊  
   okinawa brown sugar 
 - 醬油 50ml    
@@ -32,7 +33,8 @@ thumbnail: "./assets/posts/receipts/braisedPork2.jpg"
 比例：  
 醬油：水＝1:4 或 1:3（較鹹）
 
-#### 香料包
+香料包
+
 - 白胡椒 5g
   white pepper  
 - 小茴香 5g  

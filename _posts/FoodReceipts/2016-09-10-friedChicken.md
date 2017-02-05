@@ -10,7 +10,8 @@ thumbnail: "./assets/posts/receipts/friedChicken.jpg"
 > (源自[香香雞](https://icook.tw/recipes/87613))  
 
 ### 材料：  
-醃料：   
+醃料： 
+
 - 去皮雞胸肉 約300g  
 - 薑泥 1匙  
 - 蒜泥 1匙 （約3瓣）  
@@ -23,6 +24,7 @@ thumbnail: "./assets/posts/receipts/friedChicken.jpg"
 - 太白粉 1匙  
 
 外皮：  
+
 - 芝麻 2大匙  
 - 地瓜粉 適量  
 
