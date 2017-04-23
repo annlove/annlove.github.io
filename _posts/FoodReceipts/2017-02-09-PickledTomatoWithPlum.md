@@ -4,7 +4,7 @@ title: 梅漬小蕃茄
 description: "梅漬蕃茄 / Pickled Tomato with Dired Salted Plum"
 category : [食譜,料理]
 tags: [醃漬]
-tagline: "Pickled Tomato with Dired Salted Plum"
+tagline: "Pickled Tomato w/ Salted Plum"
 thumbnail: "./assets/posts/receipts/pickleTomatoWithPlum.jpg"
 ---
 > （參考[梅漬小番茄](https://icook.tw/recipes/184955)）
